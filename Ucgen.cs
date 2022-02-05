@@ -9,13 +9,14 @@ namespace Triangle
             {
                 for (int j = 0; j < UcgenUzunlugu-i; j++)
                 {
-                    Console.WriteLine(" ");
+                    Console.Write(" ");
                 }
 
-                for (int k = 0;  k< 2*i-1; k++)
+                for (int k = 0;  k< 2*i-1; k++) 
                 {
-                    Console.WriteLine("*");
+                    Console.Write("*");
                 }
+                Console.WriteLine(); //Yıldız attıktan sonra bir satır tamamlanmış olunduğu için bir sonraki satırın yandan devam etmemesini sağlamak için.
             }
         }
     }

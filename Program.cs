@@ -6,7 +6,11 @@ namespace Triangle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Konsol_Islemcisi Konsol= new Konsol_Islemcisi();
+            Ucgen ucgen= new Ucgen();
+            Konsol.GirdiMesajı();
+            int uzunluk = Konsol.UcgenUzunluguAlma();
+            ucgen.UcgenCiz(uzunluk);
         }
     }
 }
